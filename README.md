@@ -34,14 +34,6 @@ Using an automated tool that can detect and compare in real time the user's loca
 Access Control.
 
 
-### 3. Location-Based Access Control
-#### Impact:
-Restricts access to resources based on the geographic location of the user or device attempting to access them, and allows administrators to set rules that limit access to certain repositories or actions based on the user's physical location.
-#### Automated Detection and Fix:
-Using an automated tool that can detect and compare in real time the user's location, suspicious access attempts from unauthorized locations can trigger alerts or automated responses, such as blocking access or requiring additional authentication steps to verify the user's identity.
-#### NIST Compliance Category:
-Access Control.
-
 ### 4. Device-Based Access Control
 ### Impact:
 This type of access control affects users and repositories by adding an additional layer of security that ensures access is only granted from approved devices. By authenticating users based on their devices
