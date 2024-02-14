@@ -35,20 +35,20 @@ Access Control.
 
 
 ### 4. Device-Based Access Control
-### Impact:
+#### Impact:
 This type of access control affects users and repositories by adding an additional layer of security that ensures access is only granted from approved devices. By authenticating users based on their devices
-### Automated Detection and Fix:
+#### Automated Detection and Fix:
 Implementation of solutions that monitor and analyze information about the device during authentication attempts. If a user tries to access from an unrecognized or authorized device, you can activate automatic alerts, request additional authentication steps, or block access until the user's identity is verified. In addition, organizations can implement device management tools that integrate with access control systems to effectively enforce device-based restrictions.
-### NIST Compliance Category:
+###\3 NIST Compliance Category:
 Access Control.
 
 
 ### 5. Contingency Planning Configuration
-### Impact:
+#### Impact:
 Defines a backup and recovery plan for repositories in case of unexpected incidents.
-### Automated Detection and Fix:
+#### Automated Detection and Fix:
 Automated tools can monitor the repository's health and execute backup and recovery processes as needed.
-### NIST Compliance Category:
+#### NIST Compliance Category:
 Contingency Planning
 
 
