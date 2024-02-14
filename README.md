@@ -24,4 +24,12 @@ Implementation of automated tools and scripts that regularly check access privil
 #### NIST Compliance Category:
 Access Control.
 
+### 3. Location-Based Access Control
+#### Impact:
+
+#### Automated Detection and Fix:
+
+#### NIST Compliance Category:
+Access Control.
+
 
