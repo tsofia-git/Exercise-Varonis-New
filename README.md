@@ -76,4 +76,28 @@ T**wo-factor authentication (2FA)** is like having a double lock on your digital
 2. **Credential Stuffing (T1110.003)**
 
 3. **Password Spraying (T1110.004)**
-  
+
+
+### Part 3 - Setup & Usage 
+
+[*python_code.py*] script - The python_code.py script checks the status of the configuration of Private Repositories. If it is private, it will only print its status, and if it is public, it will change the repository to private and notify it, by setting the repository as private, it can be said that only authorized users can see and contribute to the repository.
+
+To run the script locally, you need to have Python 3.11.X installed, and you have to run the following command on Git Bash:
+```shell
+git clone https://github.com/tsofia-git/Exercise-Varonis-New.git
+```
+
+And the following installations commands on Terminal: 
+```shell
+pip install dotenv
+pip install dotenv
+```
+
+Then run the script: 
+```shell
+python python_code.py
+```
+
+You should be notified of the status of the repository.
+#### **Caution!!! The script changes the repository to private**
+
