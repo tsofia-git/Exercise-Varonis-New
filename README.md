@@ -6,4 +6,6 @@ There are configuration methods and standards with security impact established t
 
 Below are several configuration methods with security implications for users or repositories:
 
+1. 
+
 
