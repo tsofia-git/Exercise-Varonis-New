@@ -11,7 +11,7 @@ This README provides a list of security configurations impacting either users or
 Instead of normal login processes, the 2FA layer requires the user to provide another authentication method, such as a one-time code, an authentication app, or a single key
 It decreases the scope of vulnerability of unauthorized access
 #### Automated Detection and Fix:
-Implement an automated system to enforce 2FA for all users.
+Implement automated checks to verify 2FA settings for repository access, automatically prompt users to enable MFA if not configured correctly.
 #### NIST Compliance Category:
 Identification and Authentication.
 
@@ -36,10 +36,10 @@ Access Control.
 
 ### 4. Device-Based Access Control
 #### Impact:
-This type of access control affects users and repositories by adding an additional layer of security that ensures access is only granted from approved devices. By authenticating users based on their devices
+This type of access control affects users and repositories by adding layer of security that ensures access is only granted from approved devices. By authenticating users based on their devices
 #### Automated Detection and Fix:
 Implementation of solutions that monitor and analyze information about the device during authentication attempts. If a user tries to access from an unrecognized or authorized device, you can activate automatic alerts, request additional authentication steps, or block access until the user's identity is verified. In addition, organizations can implement device management tools that integrate with access control systems to effectively enforce device-based restrictions.
-###\3 NIST Compliance Category:
+#### NIST Compliance Category:
 Access Control.
 
 
