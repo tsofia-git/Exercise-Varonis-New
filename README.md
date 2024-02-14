@@ -29,7 +29,7 @@ Access Control.
 #### Impact:
 Restricts access to resources based on the geographic location of the user or device attempting to access them, and allows administrators to set rules that limit access to certain repositories or actions based on the user's physical location.
 #### Automated Detection and Fix:
-Using an automated tool that can detect and compare in real time the user's location, suspicious access attempts from unauthorized locations can trigger alerts or automated responses, such as blocking access or requiring additional authentication steps to verify the user's identity.
+Using an automated tool that can detect and compare in real-time the user's location, suspicious access attempts from unauthorized locations can trigger alerts or automated responses, such as blocking access or requiring additional authentication steps to verify the user's identity.
 #### NIST Compliance Category:
 Access Control.
 
@@ -43,12 +43,12 @@ Implementation of solutions that monitor and analyze information about the devic
 Access Control.
 
 
-### 5. Contingency Planning Configuration
+### 5. Contingency Planning - Regularly scheduled repository backups to a secure offsite location
 #### Impact:
-Defines a backup and recovery plan for repositories in case of unexpected incidents.
+Ensures data integrity and availability in the event of data loss or system failure.
 #### Automated Detection and Fix:
-Automated tools can monitor the repository's health and execute backup and recovery processes as needed.
+Utilize automated backup monitoring tools to verify backup schedules and data transfer to offsite locations. Automatically trigger backup processes if scheduled backups are missed.
 #### NIST Compliance Category:
-Contingency Planning
+Contingency Planning.
 
 
