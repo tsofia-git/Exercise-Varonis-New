@@ -34,3 +34,29 @@ Using an automated tool that can detect and compare in real time the user's loca
 Access Control.
 
 
+### 3. Location-Based Access Control
+#### Impact:
+Restricts access to resources based on the geographic location of the user or device attempting to access them, and allows administrators to set rules that limit access to certain repositories or actions based on the user's physical location.
+#### Automated Detection and Fix:
+Using an automated tool that can detect and compare in real time the user's location, suspicious access attempts from unauthorized locations can trigger alerts or automated responses, such as blocking access or requiring additional authentication steps to verify the user's identity.
+#### NIST Compliance Category:
+Access Control.
+
+### 4. Contingency Planning Configuration
+### Impact:
+This type of access control affects users and repositories by adding an additional layer of security that ensures access is only granted from approved devices. By authenticating users based on their devices
+### Automated Detection and Fix:
+Implementation of solutions that monitor and analyze information about the device during authentication attempts. If a user tries to access from an unrecognized or authorized device, you can activate automatic alerts, request additional authentication steps, or block access until the user's identity is verified. In addition, organizations can implement device management tools that integrate with access control systems to effectively enforce device-based restrictions.
+### NIST Compliance Category:
+Access Control.
+
+
+### 5. Contingency Planning Configuration
+### Impact:
+Defines a backup and recovery plan for repositories in case of unexpected incidents.
+### Automated Detection and Fix:
+Automated tools can monitor the repository's health and execute backup and recovery processes as needed.
+### NIST Compliance Category:
+Contingency Planning
+
+
