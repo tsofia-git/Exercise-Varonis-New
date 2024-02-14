@@ -5,15 +5,15 @@
 
 There are configuration methods and standards with security impact established to make the digital environment more secure and protect information from security threats and vulnerabilities.
 
-This README provides a list of security configurations impacting either users or repositories, each configuration includes details on how to detect and automatically fix these configurations. Additionally, each configuration is associated with a compliance category from NIST.
+This README provides a list of security configurations that affect users or repositories, each configuration includes details on how to automatically detect and remedy these configurations. Additionally, each configuration is associated with a compatibility category from NIST.
 
 ### 1. Two-Factor Authentication (2FA)
 #### Impact:
 2FA affects the security of users and repositories by adding another layer of authentication to the system. 
 Instead of normal login processes, the 2FA layer requires the user to provide another authentication method, such as a one-time code, an authentication app, or a single key
-It decreases the scope of vulnerability of unauthorized access
+It decreases the scope of vulnerability of unauthorized access.
 #### Automated Detection and Fix:
-Implement automated checks to verify 2FA settings for repository access, automatically prompt users to enable MFA if not configured correctly.
+Implement automated checks to verify 2FA settings for repository access, and automatically prompt users to enable MFA if not configured correctly.
 #### NIST Compliance Category:
 Identification and Authentication.
 
@@ -38,20 +38,20 @@ Access Control.
 
 ### 4. Device-Based Access Control
 #### Impact:
-This type of access control affects users and repositories by adding layer of security that ensures access is only granted from approved devices. By authenticating users based on their devices
+This type of access control affects users and repositories by adding a layer of security that ensures the access is only granted from approved devices, by authenticating users based on their devices
 #### Automated Detection and Fix:
 Implementation of solutions that monitor and analyze information about the device during authentication attempts. If a user tries to access from an unrecognized or authorized device, you can activate automatic alerts, request additional authentication steps, or block access until the user's identity is verified. In addition, organizations can implement device management tools that integrate with access control systems to effectively enforce device-based restrictions.
 #### NIST Compliance Category:
 Access Control.
 
 
-### 5. Contingency Planning - Regularly scheduled repository backups to a secure offsite location
-#### Impact:
+### 5. Contingency planning - permanent backups of a repository to a secure off-site location
+#### Effect:
 Ensures data integrity and availability in the event of data loss or system failure.
-#### Automated Detection and Fix:
-Utilize automated backup monitoring tools to verify backup schedules and data transfer to offsite locations. Automatically trigger backup processes if scheduled backups are missed.
+#### Automatic detection and repair:
+Using automated backup monitoring tools to verify backup schedules and transfer data to offsite locations. and automatic activation of backup processes if scheduled backups are missed.
 #### NIST Compliance Category:
-Contingency Planning.
+contingency planning.
 
 
 
@@ -99,5 +99,7 @@ python python_code.py
 ```
 
 You should be notified of the status of the repository.
+![image](https://github.com/tsofia-git/Exercise-Varonis-New/assets/99796311/690aedc5-b8af-4fab-978e-6e813df54e53)
+
 #### **Caution!!! The script changes the repository to private**
 
