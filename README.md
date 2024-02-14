@@ -9,7 +9,7 @@ This README provides a list of security configurations impacting either users or
 ## 1. Two-Factor Authentication (2FA)
 ### Impact:
 decreases the scope of vulnerability of unauthorized access
-### Automated Detection and Fix:
+#### Automated Detection and Fix:
 Implement an automated system to enforce 2FA for all users.
 ### NIST Compliance Category:
 Identification and Authentication.
