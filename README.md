@@ -42,7 +42,7 @@ Using an automated tool that can detect and compare in real time the user's loca
 #### NIST Compliance Category:
 Access Control.
 
-### 4. Contingency Planning Configuration
+### 4. Device-Based Access Control
 ### Impact:
 This type of access control affects users and repositories by adding an additional layer of security that ensures access is only granted from approved devices. By authenticating users based on their devices
 ### Automated Detection and Fix:
