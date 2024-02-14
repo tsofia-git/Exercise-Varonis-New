@@ -65,3 +65,15 @@ T**wo-factor authentication (2FA)** is like having a double lock on your digital
 * If Two-Factor Authentication is not enabled, there is a higher risk of unauthorized access to your account if someone gains access to your password. Without this extra layer of security, hackers or anyone else could potentially log in to your account and access sensitive information or perform actions on your behalf.
 %%%%%
 * To enable 2FA manually, you would typically go to your account settings, look for the Two-Factor Authentication option, and follow the steps to set it up. To work around risks without 2FA, you can regularly update your password, use unique and strong passwords for each account, and be cautious of phishing attempts.
+
+* Enabling Two-Factor Authentication on GitHub adds an extra layer of security to your account. While it may require an additional step during login, it significantly reduces the risk of unauthorized access, especially considering the sensitive code and data stored on GitHub repositories.
+
+* Here are some attack techniques that are often related to the configuration of 2FA:
+
+1. **Phishing (T1566.001):**
+   - **Explanation:** Phishing attacks are commonly used to trick individuals into providing their login credentials, including the second factor used in 2FA. Attackers may send deceptive emails or messages that appear to be from a legitimate source, prompting users to enter both their password and the 2FA code into a fake website controlled by the attacker. By compromising both factors, attackers can gain unauthorized access to the victim's account.
+
+2. **Credential Stuffing (T1110.003)**
+
+3. **Password Spraying (T1110.004)**
+  
