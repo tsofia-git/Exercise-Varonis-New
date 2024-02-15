@@ -13,7 +13,7 @@ def is_private_repositories(token, repo_name):
         print("Error: Personal Access Token not found. Please set GITHUB_TOKEN environment variable.")
         exit()
     account = Github(token)
-    repo = account.get_repo("tsofia-git/Exercise-Varonis-New")
+    repo = account.get_repo(repo_name)
     if not repo.private:
         print(f"The repository '{repo_name}' is currently PUBLIC. Changing to PRIVATE...")
         # repo.edit(private=True)
