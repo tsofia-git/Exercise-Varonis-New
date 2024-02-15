@@ -48,7 +48,7 @@ Access Control.
 ### 5. Contingency planning - permanent backups of a repository to a secure off-site location
 #### Effect:
 Ensures data integrity and availability in the event of data loss or system failure.
-#### Automatic detection and repair:
+#### Automated Detection and Fix:
 Using automated backup monitoring tools to verify backup schedules and transfer data to offsite locations. and automatic activation of backup processes if scheduled backups are missed.
 #### NIST Compliance Category:
 contingency planning.
