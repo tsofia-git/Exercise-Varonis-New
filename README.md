@@ -64,7 +64,7 @@ contingency planning.
 
 * If Two-Factor Authentication is not enabled, there is a higher risk of unauthorized access to your account if someone gains access to your password. Without this extra layer of security, hackers or anyone else could potentially log in to your account and access sensitive information or perform actions on your behalf.
 
-* To enable 2FA manually, you would typically go to your account settings, look for the Two-Factor Authentication option, and follow the steps to set it up. To work around risks without 2FA, you can regularly update your password, use unique and strong passwords for each account, and be cautious of phishing attempts.
+* To enable 2FA manually, you would typically go to your account settings -> password and authentication -> look for the Two-Factor Authentication option, and follow the steps to set it up. To work around risks without 2FA, you can regularly update your password, use unique and strong passwords for each account, and be cautious of phishing attempts.
 
 * Enabling Two-Factor Authentication on GitHub adds an extra layer of security to your account. While it may require an additional step during login, it significantly reduces the risk of unauthorized access, especially considering the sensitive code and data stored on GitHub repositories.
 
@@ -80,16 +80,16 @@ contingency planning.
 
 ### Part 3 - Setup & Usage 
 
-[*python_code.py*] script - The python_code.py script checks the status of the configuration of Private Repositories. If it is private, it will only print its status, and if it is public, it will change the repository to private and notify it, by setting the repository as private, it can be said that only authorized users can see and contribute to the repository.
+*python_code.py* script - The python_code.py script checks the status of the configuration of Private Repositories. If it is private, it will only print its status, and if it is public, it will change the repository to private and notify it, by setting the repository as private, it can be said that only authorized users can see and contribute to the repository.
 
 To run the script locally, you need to have Python 3.11.X installed, and you have to run the following command on Git Bash:
 ```shell
 git clone https://github.com/tsofia-git/Exercise-Varonis-New.git
 ```
 
-And the following installations commands on Terminal: 
+And the following installation commands on the Terminal: 
 ```shell
-pip install dotenv
+pip install PyGithub 
 pip install dotenv
 ```
 
