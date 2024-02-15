@@ -92,7 +92,7 @@ git clone https://github.com/tsofia-git/Exercise-Varonis-New.git
 And the following installation commands on the Terminal: 
 ```shell
 pip install PyGithub 
-pip install dotenv
+pip install python-dotenv
 ```
 
 Then run the script: 
