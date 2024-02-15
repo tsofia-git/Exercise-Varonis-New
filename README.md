@@ -101,5 +101,5 @@ python python_code.py
 You should be notified of the status of the repository.
 ![image](https://github.com/tsofia-git/Exercise-Varonis-New/assets/99796311/690aedc5-b8af-4fab-978e-6e813df54e53)
 
-#### **Caution!!! The script changes the repository to private**
+### **Caution!!! The script changes the repository to private**
 
