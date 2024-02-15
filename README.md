@@ -70,12 +70,14 @@ contingency planning.
 
 * Here are some attack techniques that are often related to the configuration of 2FA:
 
-1. **Phishing (T1566.001):**
-   - **Explanation:** Phishing attacks are commonly used to trick individuals into providing their login credentials, including the second factor used in 2FA. Attackers may send deceptive emails or messages that appear to be from a legitimate source, prompting users to enter both their password and the 2FA code into a fake website controlled by the attacker. By compromising both factors, attackers can gain unauthorized access to the victim's account.
-
-2. **Credential Stuffing (T1110.003)**
-
-3. **Password Spraying (T1110.004)**
+   1. **Phishing (T1566.001):**
+      - **Explanation:** Phishing attacks are commonly used to trick individuals into providing their login credentials, including the second factor used in 2FA. 
+        Attackers may send deceptive emails or messages that appear to be from a legitimate source, prompting users to enter both their password and the 2FA code 
+        into a fake website controlled by the attacker. By compromising both factors, attackers can gain unauthorized access to the victim's account.
+   
+   2. **Credential Stuffing (T1110.003)**
+   
+   3. **Password Spraying (T1110.004)**
 
 
 ### Part 3 - Setup & Usage 
