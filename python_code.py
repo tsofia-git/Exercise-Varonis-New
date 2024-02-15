@@ -1,5 +1,4 @@
 from pathlib import Path
-
 from github import Github
 import os
 from dotenv import load_dotenv
